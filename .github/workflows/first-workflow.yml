@@ -36,4 +36,4 @@ jobs:
       run: |
         pipenv run nosetests
       env:
-        DATABASE_URL: postgresql://postgres:Postgres@localhost/twitter_api_flask_test
+        DATABASE_URL: postgresql://postgres:postgres@localhost/twitter_api_flask

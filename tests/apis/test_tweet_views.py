@@ -82,6 +82,7 @@ class TestTweetViews(TestCase):
 
     #     # We use direct access to database to validate our operation
     #     self.assertIsNone(tweet_repository.get(1))
+
     def test_tweet_show(self):
         first_tweet = Tweet(text="First tweet")
         db.session.add(first_tweet)
