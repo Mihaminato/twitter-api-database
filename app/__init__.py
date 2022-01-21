@@ -1,3 +1,5 @@
+# app/__init__.py
+# pylint: disable=missing-docstring
 from flask import Flask
 from flask_restx import Api
 from flask_sqlalchemy import SQLAlchemy
